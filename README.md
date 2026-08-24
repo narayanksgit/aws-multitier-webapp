@@ -313,12 +313,13 @@ The architecture was validated by:
 
 ## Repository Structure
 
+## Repository Structure
 
-app/
-scripts/
-static/
-architecture/
-screenshots/
+```text
+aws-multitier-webapp/
+├── README.md
+└── architecture/
+    └── aws-multitier-architecture.png
 
 ---
 
