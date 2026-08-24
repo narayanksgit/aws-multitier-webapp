@@ -313,14 +313,16 @@ The architecture was validated by:
 
 ## Repository Structure
 
-## Repository Structure
-
-```text
 aws-multitier-webapp/
+│
 ├── README.md
-└── architecture/
-    └── aws-multitier-architecture.png
-
+│
+├── architecture/
+│   └── aws-multitier-architecture.png
+│
+└── screenshots/
+    ├── alb-app.png
+    └── cloudfront.png
 ---
 
 ## What I Learned
