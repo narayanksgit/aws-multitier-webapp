@@ -10,30 +10,9 @@ The project was built to gain practical experience designing, deploying, securin
 
 ## Architecture
 
+The application uses a highly available multi-tier AWS architecture with public-facing load balancing, auto-scaled application servers, a private database tier, and CloudFront-backed static content delivery.
 
-                         Internet
-                            |
-             +--------------+--------------+
-             |                             |
-             v                             v
-        CloudFront                         ALB
-             |                             |
-             v                             v
-       Private S3                    Target Group
-       Static Content                      |
-                                      +----+----+
-                                      |         |
-                                      v         v
-                                     EC2       EC2
-                                    Flask     Flask
-                                      \         /
-                                       \       /
-                                        v     v
-                                     Amazon RDS
-                                        MySQL
-
-EC2 instances retrieve database credentials securely
-from AWS Secrets Manager using an IAM instance role.
+![AWS Multi-Tier Architecture](architecture/aws-multitier-architecture.png)
 
 
 ---
