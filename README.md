@@ -1,5 +1,3 @@
-# aws-multitier-webapp
-
 # AWS Multi-Tier Web Application
 
 A hands-on AWS project demonstrating a highly available multi-tier web architecture using **Application Load Balancer, EC2 Auto Scaling, Amazon RDS, AWS Secrets Manager, Amazon S3, and Amazon CloudFront**.
