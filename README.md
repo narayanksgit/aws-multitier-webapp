@@ -326,6 +326,20 @@ aws-multitier-webapp/
     └── cloudfront.png
 ```
 
+
+## Screenshots
+
+### Application Load Balancer – Dynamic Application
+The application is served through the ALB, with EC2 instances retrieving data from the private RDS database.
+
+![Application through ALB](screenshots/alb-app.PNG)
+
+### CloudFront – Static Content Delivery
+Static content stored in Amazon S3 is delivered globally through Amazon CloudFront.
+
+![Static content through CloudFront](screenshots/cloudfront.PNG)
+
+
 ---
 
 ## What I Learned
