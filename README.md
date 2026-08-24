@@ -314,28 +314,11 @@ The architecture was validated by:
 ## Repository Structure
 
 
-aws-multitier-webapp/
-│
-├── README.md
-│
-├── app/
-│   └── app.py
-│
-├── scripts/
-│   └── user-data.sh
-│
-├── static/
-│   └── index.html
-│
-├── architecture/
-│   └── architecture-diagram.png
-│
-└── screenshots/
-    ├── alb-application.png
-    ├── auto-scaling.png
-    ├── instance-refresh.png
-    └── cloudfront-s3.png
-
+app/
+scripts/
+static/
+architecture/
+screenshots/
 
 ---
 
