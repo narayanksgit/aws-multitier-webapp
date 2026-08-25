@@ -381,3 +381,7 @@ These are intentionally outside the current project scope.
 This project was created as a **hands-on AWS learning and portfolio project**.
 
 It demonstrates AWS architecture concepts and service integrations in a lab environment. A production implementation would require additional security, observability, resiliency, backup, cost management, CI/CD, and operational controls.
+
+
+## Author
+Narayana KS
